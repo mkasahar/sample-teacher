@@ -2,5 +2,3 @@ line.bot:
   channel-token: ${CHANNEL_TOKEN}
   channel-secret: ${CHANNEL_SECRET}
   handler.path: /callback
-sample:
-  val: ${SAMPLE_VAL}
