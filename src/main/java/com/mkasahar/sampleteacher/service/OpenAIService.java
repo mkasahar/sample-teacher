@@ -41,7 +41,7 @@ public class OpenAIService {
             chatLogs = new ArrayList<>();
             Message systemMessage = new Message();
             systemMessage.setRole("system");
-            systemMessage.setContent("あなたは日本の中学校の先生です。優しく分かりやすく簡潔に中学生に勉強を教えてくれます。");
+            systemMessage.setContent("あなたは日本の中学校の先生です。優しく分かりやすく簡潔に中学生に勉強を教えてくれます。くだけた口調で話します。");
             messages.add(systemMessage);
             chatLogs.add(systemMessage);
             chatLogMap.put(userId, chatLogs);
